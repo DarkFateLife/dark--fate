@@ -1,0 +1,26 @@
+{
+    "$schema": "https://turbo.build/schema.json",
+    "tasks": {
+        "check-types": {
+            "dependsOn": ["build"]
+        },
+        "@DarkFateLife/agent#check-types": {
+            "dependsOn": ["@DarkFateLife/plugin-solana#build"]
+        },
+        "build": {
+            "outputs": ["dist/**"],
+            "dependsOn": ["^@DarkFateLife/darkfate#build"]
+        },
+        "@DarkFateLife/plugin-solana#build": {
+            "outputs": ["dist/**"],
+            "dependsOn": ["@DarkFateLife/plugin-trustdb#build"]
+        },
+        "darkfate-docs#build": {
+            "outputs": ["build/**"]
+        },
+        "dev": {
+            "persistent": true,
+            "cache": false
+        }
+    }
+}
