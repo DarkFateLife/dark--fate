@@ -1,7 +1,7 @@
-# Eliza 🤖
+# DarkFate 🤖
 
 <div align="center">
-  <img src="./docs/static/img/darkfate_banner.jpg" alt="Eliza Banner" width="100%" />
+  <img src="./docs/static/img/darkfate_banner.jpg" alt="DarkFate Banner" width="100%" />
 </div>
 
 <div align="center">
@@ -53,9 +53,9 @@ cp .env.example .env
 pnpm i && pnpm start
 ```
 
-Then read the [Documentation](https://DarkFateLife.github.io/darkfate/) to learn how to customize your Eliza.
+Then read the [Documentation](https://DarkFateLife.github.io/darkfate/) to learn how to customize your Darkfate.
 
-### Manually Start Eliza (Only recommended if you know what you are doing)
+### Manually Start Darkfate (Only recommended if you know what you are doing)
 
 ```bash
 # Clone the repository
@@ -80,7 +80,7 @@ cp .env.example .env
 
 Note: .env is optional. If your planning to run multiple distinct agents, you can pass secrets through the character JSON
 
-### Automatically Start Eliza
+### Automatically Start Darkfate
 
 This will run everything to setup the project and start the bot with the default character.
 
@@ -98,7 +98,7 @@ sh scripts/start.sh
 3. Connect with X (Twitter)
     - change `"clients": []` to `"clients": ["twitter"]` in the character file to connect with X
 
-### Manually Start Eliza
+### Manually Start Darkfate
 
 ```bash
 pnpm i
