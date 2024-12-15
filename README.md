@@ -66,7 +66,7 @@ git clone https://github.com/DarkFateLife/darkfate.git
 git checkout $(git describe --tags --abbrev=0)
 ```
 
-### Start Eliza with Gitpod
+### Start Darkfate with Gitpod
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/DarkFateLife/darkfate/tree/main)
 
